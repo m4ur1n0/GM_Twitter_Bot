@@ -1,0 +1,144 @@
+Breakfast.
+ | - > 1-word line from s1 e1 at line #0
+Really?
+ | - > 1-word line from s1 e1 at line #39
+Exactly.
+ | - > 1-word line from s1 e2 at line #9
+Dad.
+ | - > 1-word line from s1 e2 at line #17
+What?
+ | - > 1-word line from s1 e2 at line #22
+What?
+ | - > 1-word line from s1 e3 at line #17
+Here.
+ | - > 1-word line from s1 e3 at line #29
+G.O.B.!
+ | - > 1-word line from s1 e5 at line #0
+What?
+ | - > 1-word line from s1 e6 at line #11
+Yeah.
+ | - > 1-word line from s1 e6 at line #13
+Okay.
+ | - > 1-word line from s1 e6 at line #14
+Dad?
+ | - > 1-word line from s1 e6 at line #15
+Frontispiece?
+ | - > 1-word line from s1 e7 at line #1
+100.
+ | - > 1-word line from s1 e7 at line #2
+Yikes.
+ | - > 1-word line from s1 e7 at line #9
+Yup.
+ | - > 1-word line from s1 e8 at line #7
+Guys?
+ | - > 1-word line from s1 e9 at line #8
+Dad?
+ | - > 1-word line from s1 e9 at line #19
+Hey.
+ | - > 1-word line from s1 e10 at line #13
+Nothing.
+ | - > 1-word line from s1 e10 at line #14
+Yeah.
+ | - > 1-word line from s1 e10 at line #16
+Sorry.
+ | - > 1-word line from s1 e11 at line #3
+Oh.
+ | - > 1-word line from s1 e11 at line #13
+No.
+ | - > 1-word line from s1 e12 at line #9
+Yikes.
+ | - > 1-word line from s1 e14 at line #7
+Right.
+ | - > 1-word line from s1 e16 at line #5
+Maeby?
+ | - > 1-word line from s1 e16 at line #6
+Wow.
+ | - > 1-word line from s1 e18 at line #20
+What?
+ | - > 1-word line from s1 e18 at line #26
+What?
+ | - > 1-word line from s1 e18 at line #27
+Dad...
+ | - > 1-word line from s1 e22 at line #1
+Hi.
+ | - > 1-word line from s1 e22 at line #2
+Hello?
+ | - > 1-word line from s1 e22 at line #14
+Sorry.
+ | - > 1-word line from s2 e1 at line #9
+Oh!
+ | - > 1-word line from s2 e1 at line #14
+Ann.
+ | - > 1-word line from s2 e2 at line #7
+What?
+ | - > 1-word line from s2 e3 at line #9
+Yeah.
+ | - > 1-word line from s2 e3 at line #13
+Okay.
+ | - > 1-word line from s2 e3 at line #15
+Ann!
+ | - > 1-word line from s2 e3 at line #19
+Dad?
+ | - > 1-word line from s2 e4 at line #5
+Pop-Pop?
+ | - > 1-word line from s2 e4 at line #13
+Well...
+ | - > 1-word line from s2 e4 at line #17
+Hi.
+ | - > 1-word line from s2 e4 at line #19
+Okay.
+ | - > 1-word line from s2 e4 at line #21
+Yeah.
+ | - > 1-word line from s2 e4 at line #32
+Yeah!
+ | - > 1-word line from s2 e4 at line #34
+Okay.
+ | - > 1-word line from s2 e6 at line #16
+No?
+ | - > 1-word line from s2 e7 at line #4
+What?!
+ | - > 1-word line from s2 e9 at line #13
+Ann.
+ | - > 1-word line from s2 e11 at line #5
+Great.
+ | - > 1-word line from s2 e11 at line #7
+Good.
+ | - > 1-word line from s2 e12 at line #5
+Who?
+ | - > 1-word line from s2 e12 at line #12
+Disappointed?
+ | - > 1-word line from s2 e12 at line #16
+Really?
+ | - > 1-word line from s2 e13 at line #12
+Who?
+ | - > 1-word line from s2 e13 at line #13
+Yeah.
+ | - > 1-word line from s2 e16 at line #12
+What?
+ | - > 1-word line from s2 e16 at line #15
+Jail?
+ | - > 1-word line from s2 e18 at line #9
+No.
+ | - > 1-word line from s2 e18 at line #12
+We
+ | - > 1-word line from s2 e18 at line #18
+Nothing.
+ | - > 1-word line from s3 e1 at line #10
+Nothing!
+ | - > 1-word line from s3 e1 at line #11
+Yeah.
+ | - > 1-word line from s3 e1 at line #15
+Maeby?
+ | - > 1-word line from s3 e1 at line #18
+No.
+ | - > 1-word line from s3 e1 at line #25
+Surprise.
+ | - > 1-word line from s3 e12 at line #13
+Family.
+ | - > 1-word line from s3 e13 at line #8
+Who?
+ | - > 1-word line from s3 e13 at line #23
+Her?
+ | - > 1-word line from s3 e13 at line #24
+What?
+ | - > 1-word line from s3 e13 at line #26
