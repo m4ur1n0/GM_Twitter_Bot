@@ -1,8 +1,6 @@
 import requests
 import episode_transcript_urls as e
 
-# REMEMBER TO PUT BREAKFAST AT TOP OF S1 E1
-
 def generate_gm(script_path, season, episode):
     script = open(script_path, "r")
     store_path = "season_" + str(season) + "/s" + str(season) + "_ep" + str(episode) + ".txt"
@@ -30,9 +28,6 @@ def generate_gm(script_path, season, episode):
                 gm.write(gm_dialogue + "\n")
                 gm.write(episode_credits + "\n")
 
-            # print(gm_dialogue, "    ", counter)
-            # if (len(gm_dialogue.split(" ")) == 1):
-            #     print("\n\nONE WORD!!!\n\n")
             counter += 1
 
     script.close()
@@ -42,29 +37,22 @@ def generate_gm(script_path, season, episode):
 
 
 def pull_script_from_wiki(url):
-
-
     # URL of the webpage you want to read
-    # url = 'https://arresteddevelopment.fandom.com/wiki/Transcript_of_Pilot'
+    # e.g. url = 'https://arresteddevelopment.fandom.com/wiki/Transcript_of_Pilot'
 
-    # Send a GET request to the URL
+    # send a GET request to the URL
     response = requests.get(url)
 
-    # Check if the request was successful (status code 200)
+    # check if the request was successful (status code 200)
     if response.status_code == 200:
-        # Print the content of the response (HTML content of the webpage)
-        # print(response.text)
+        # print the content of the response (HTML content of the webpage)
         fp = open("html_body.txt", "w")
         fp.write(response.text)
     else:
-        # Print an error message if the request was not successful
+        # print an error message if the request was not successful
         print(f"Error: Unable to fetch webpage. Status code: {response.status_code}\nFor webpage: {url}")
 
     return "html_body.txt"
-
-
-# html_body.txt should have 3605 lines still after this
-# print(generate_gm(pull_script_from_wiki(e.season_1_urls[0]), 1, 1))
 
 total_lines = 0
 
@@ -73,7 +61,6 @@ for s, season in enumerate(e.seasons):
         total_lines += generate_gm(pull_script_from_wiki(ep), s + 1, en + 1)
 
 
-# PRINTED 929
 print(total_lines)
 
 
