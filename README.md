@@ -13,6 +13,8 @@ The com.example.gmikebot.plist file is a launch agent file which allows the main
 
 All in all I learned a lot from this project, and had a lot of fun. I had never used the Twitter API nor the tweepy module before, and learning about both was useful not just for making a chatbot, but for familiarizing myself with using new modules and APIs in general. This project also gave me the chance to learn about launch agents, and that process was interesting, frustrating, and so rewarding. 
 
+If you want to use this program, you will have to set up your own 'keys.py' file to store variables for your API keys, obviously I chose not to share mine.
+
 You can find the bot at @george_mikebot on Twitter! Though George Michael only has ~950 lines in Arrested development (I filtered out almost all of his one-word lines, which you can see in the one_liners.txt file), so this bot will probably only be running for 2 months or so. 
 
 Thanks for reading!
