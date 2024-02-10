@@ -1,40 +1,17 @@
 import os
 script_dir = os.path.dirname(os.path.realpath(__file__))
-
 # Change the current working directory to the script directory
 os.chdir(script_dir)
-
 
 import keys as k
 import sys
 from datetime import datetime
 import tweepy
 
-# Get the directory path where the script is located
-
-
-# def api():
-#     auth = tweepy.OAuth1UserHandler(k.API_Key, k.API_Key_Secret, k.Access_Token, k.Access_Token_Secret)
-#     # auth.set_access_token(k.Access_Token, k.Access_Token_Secret)
-
-#     return tweepy.API(auth)
-
-# def tweet(api: tweepy.API, msg: str, image_path=None):
-#     if image_path:
-#         api.update_status_with_media(msg, image_path)
-#     else:
-#         api.update_status(status=msg)
-
-#     print("tweeted")
-
-
-# api1 = api()
-# tweet(api1, ' :) test', 'george_michael.jpg')
 eps_per_season = [22, 18, 13]
 
 with open("output.txt", "a") as f:
     sys.stdout = f
-
 
     client = tweepy.Client(consumer_key=k.API_Key,
                         consumer_secret=k.API_Key_Secret,
@@ -50,7 +27,6 @@ with open("output.txt", "a") as f:
 
     # seasons and episodes will start with 1
     # but lines will start at 0
- 
     season = int(stats[0])
     episode = int(stats[1])
     line = int(stats[2])   
@@ -65,8 +41,6 @@ with open("output.txt", "a") as f:
 
     # now that we know what season, episode, and line we're dealing with, we can close the file
     s_counter.close()
-
-
 
     episode_path = "season_" + str_season + "/s" + str_season + "_ep" + str_ep + ".txt"
     episode_file = open(episode_path, "r")
@@ -91,7 +65,6 @@ with open("output.txt", "a") as f:
             else:
                 # if we haven't finished last ep of season 3, but just last ep of
                 # seasons 1 or 2:
-
                 season += 1
                 episode = 1
                 line = 0
@@ -104,8 +77,7 @@ with open("output.txt", "a") as f:
 
     if (changed):
         episode_file.close()
-
-       
+        
         str_season = str(season)
         str_ep = str(episode)
         str_line = str(line)
@@ -116,7 +88,6 @@ with open("output.txt", "a") as f:
 
 
     # now that we're sure to be at a valid line:
-
     message = episode_lines[line] + episode_lines[line + 1]
     if len(message) > 280:
         print("THIS MESSAGE WAS TOO LONG TO TWEET, SKIPPED:\n", message, "\n\n")
@@ -141,6 +112,8 @@ with open("output.txt", "a") as f:
     s_counter.write(str(season) + '\n')
     s_counter.write(str(episode) + '\n')
     s_counter.write(str(line))
+
+    episode_file.close()
 
 
 
